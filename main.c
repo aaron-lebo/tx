@@ -234,7 +234,7 @@ int main() {
 
     Shader font_gl = shader_("font");
     font_gl.tx = 1;
-    gl_load_texture("source_code_pro.png");
+    gl_load_texture("../source_code_pro.png");
 
     string src = read_file("../main.c");
 
